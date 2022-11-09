@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.logo {
+    text-align: center;
+}
+
+.logo-main {
+    max-height: 80px;
+}
+
+
+.header-logo-hr {
+    margin-bottom: -17px;
+    opacity: 0.1;
+    margin-top: 1px;
+
+}
+
+.nav-item-names {
+    margin: 0.7rem;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.nav-item-names:hover {
+    color: #e95b30;
+}
+
+.border {
+    height: 1.3rem;
+    width: 100%;
+    background-color: rgb(242, 176, 197);
+    outline: none;
+    font-size: 15px;
+    margin-top: -11px;
+
+}
+
+/* Content */
+.image-content {
+    background-image: url(http://fantasticfotography.com/wp-content/uploads/2018/10/524141-vertical-pink-rose-background-2560x1600-download-free-1.jpg);
+}
+
+.image-box {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.image-wrapper img {
+    width: 20rem;
+    height: 13rem;
+    margin: 4rem 1rem 1rem;
+}
+
+.image-wrapper img:hover {
+    transform: translateY(-9px);
+    transition: .2s ease-in;
+    opacity: 0.6;
+}
+
+.img-desc .desc {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+/* Wedding Portfolio */
+.wedding-portfolio-section {
+    background-image: url("http://fantasticfotography.com/wp-content/uploads/2018/10/524141-vertical-pink-rose-background-2560x1600-download-free-1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.content-portfolio {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 4rem;
+}
+
+.portfolio-image {
+    width: 20rem;
+
+}
+
+.portfolio-image:hover {
+    transform: translateY(-9px);
+    transition: .2s ease-in;
+    opacity: 0.6;
+}
+
+.portfolio-individual-image {
+    border: 20px solid #e2e2e2;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 21.2rem 10rem;
+    position: absolute;
+    top: 152%;
+    left: 36%;
+}
+
+.youtube-portfolio-link {
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+.heading-link {
+    font-size: 25px;
+    font-weight: 400;
+    margin: 35px auto;
+}
+
+/* rings section */
+.rings-section {
+    background-image: url("http://fantasticfotography.com/wp-content/uploads/2018/10/524141-vertical-pink-rose-background-2560x1600-download-free-1.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-top: 30px;
+    margin-left: 15px;
+    height: 35rem;
+    margin-bottom: 7rem;
+
+}
+
+.ring-image.ring-first img {
+    width: 40rem;
+    height: 27rem;
+
+}
+
+.ring-image.ring-second img {
+    width: 27rem;
+    height: 18rem;
+}
+
+.ring-second {
+    position: relative;
+    left: 41rem;
+    bottom: 15rem;
+}
+
+.ring-image.ring-second>img:hover {
+    background-image: url("/images/DL5A1134-copy.jpg");
+    background-size: contain;
+}
+
+.rings-desc {
+    inline-size: 28rem;
+    font-size: 15px;
+    margin-left: 11px;
+}
+
+/* .collage-section{
+    background-image: url("http://fantasticfotography.com/wp-content/uploads/2018/10/524141-vertical-pink-rose-background-2560x1600-download-free-1.jpg");
+    background-repeat: no-repeat;
+    
+    background-position: bottom;
+} */
+.collage-image img {
+    width: 96vw;
+    height: 30rem;
+    margin-bottom: 1rem;
+}
+
+.collage-image img:hover {
+    transform: translateY(-9px);
+    transition: .2s ease-in;
+    opacity: 0.6;
+}
+
+.photographer-description {
+    text-align: center;
+    background-image: url("http://fantasticfotography.com/wp-content/uploads/2018/10/524141-vertical-pink-rose-background-2560x1600-download-free-1.jpg");
+    background-repeat: no-repeat;
+    height: 10rem;
+    background-position: bottom;
+}
+
+.heading-grapher-desc {
+    font-size: 25px;
+    padding-top: 1.2rem;
+}
+
+.description .desc-lines {
+    line-height: 70%;
+    font-size: 13px;
+
+}
+
+/* footer navbar */
+.footer-nav-content {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.footer-items-names {
+    font-size: 14px;
+    font-weight: 400;
+    color: #e95b30;
+    line-height: 40%;
+}
+
+
+.header-arrow {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.3rem;
+    color: #777;
+
+}
+
+.social-list-items {
+    text-decoration: none;
+    list-style: none;
+
+}
